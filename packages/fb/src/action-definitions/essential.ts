@@ -149,7 +149,7 @@ export const EssentialActions = {
       id: "open_parent_folder",
       hotkeys: ["backspace"],
       button: {
-        name: "Go up a directory",
+        name: "親ディレクトリへ移動",
         toolbar: true,
         contextMenu: false,
         icon: FbIconName.openParentFolder,

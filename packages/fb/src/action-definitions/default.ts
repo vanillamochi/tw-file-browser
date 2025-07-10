@@ -22,7 +22,7 @@ export const DefaultActions = {
       requiresSelection: true,
       fileFilter: FileHelper.isOpenable,
       button: {
-        name: "Open selection",
+        name: "開く",
         toolbar: true,
         contextMenu: true,
         group: "Options",
@@ -45,7 +45,7 @@ export const DefaultActions = {
     id: "select_all_files",
     hotkeys: ["ctrl+a"],
     button: {
-      name: "Select all files",
+      name: "すべて選択",
       toolbar: true,
       contextMenu: true,
       group: "Options",
@@ -68,7 +68,7 @@ export const DefaultActions = {
     id: "clear_selection",
     hotkeys: ["escape"],
     button: {
-      name: "Clear selection",
+      name: "選択解除",
       toolbar: true,
       contextMenu: true,
       group: "Options",
@@ -88,7 +88,7 @@ export const DefaultActions = {
       mode: FileViewMode.List,
     },
     button: {
-      name: "Switch to List",
+      name: "詳細表示",
       toolbar: true,
       icon: FbIconName.list,
       group: "View",
@@ -103,7 +103,7 @@ export const DefaultActions = {
       mode: FileViewMode.Grid,
     },
     button: {
-      name: "Switch to Grid",
+      name: "アイコン表示",
       toolbar: true,
       icon: FbIconName.smallThumbnail,
       group: "View",
@@ -118,7 +118,7 @@ export const DefaultActions = {
       mode: FileViewMode.Tile,
     },
     button: {
-      name: "Switch to Tile",
+      name: "並べて表示",
       toolbar: true,
       icon: FbIconName.mediumThumbnail,
       group: "View",
@@ -132,7 +132,7 @@ export const DefaultActions = {
     sortKeySelector: (file: Nullable<FileData>) =>
       file ? file.name.toLowerCase() : undefined,
     button: {
-      name: "Sort by name",
+      name: "名前で並び替え",
       toolbar: true,
       group: "Sort",
       ascIcon: FbIconName.sortNameAsc,
@@ -147,7 +147,7 @@ export const DefaultActions = {
     sortKeySelector: (file: Nullable<FileData>) =>
       file ? file.size : undefined,
     button: {
-      name: "Sort by size",
+      name: "サイズで並び替え",
       toolbar: true,
       group: "Sort",
     },
@@ -160,7 +160,7 @@ export const DefaultActions = {
     sortKeySelector: (file: Nullable<FileData>) =>
       file ? file.modDate : undefined,
     button: {
-      name: "Sort by date",
+      name: "日付で並び替え",
       toolbar: true,
       group: "Sort",
       ascIcon: FbIconName.sortDateAsc,
@@ -178,7 +178,7 @@ export const DefaultActions = {
       defaultValue: true,
     },
     button: {
-      name: "Show hidden files",
+      name: "隠しファイル",
       toolbar: true,
       group: "Options",
     },
@@ -194,7 +194,7 @@ export const DefaultActions = {
       defaultValue: true,
     },
     button: {
-      name: "Show folders first",
+      name: "フォルダーを先頭",
       toolbar: true,
       group: "Options",
     },
@@ -216,7 +216,7 @@ export const DefaultActions = {
     {
       id: "select_mode",
       button: {
-        name: "Select Mode",
+        name: "選択モード",
         toolbar: true,
         icon: FbIconName.select,
         iconOnly: true,

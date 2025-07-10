@@ -46,7 +46,7 @@ export const ToolbarInfo = React.memo(({ className }: ToolbarInfoProps) => {
           <FbIcon icon={FbIconName.cross} fixedWidth={true} />
         </Button>
         <p className="text-focus text-inherit text-label-large text-nowrap w-24">
-          {`${selectionSize} selected`}
+          {`${selectionSize} 個選択中`}
         </p>
       </>
     </div>

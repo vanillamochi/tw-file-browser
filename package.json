@@ -6,7 +6,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/divyam234/tw-file-browser.git"
+		"url": "git+https://github.com/vanillamochi/tw-file-browser.git"
 	},
 	"keywords": ["file", "file-dialog", "file-browser", "react-component"],
 	"pnpm": {

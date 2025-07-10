@@ -12,9 +12,9 @@ export const ExtraActions = {
   CreateFolder: defineFileAction({
     id: "create_folder",
     button: {
-      name: "Create folder",
+      name: "新しいフォルダー",
       toolbar: true,
-      tooltip: "Create a folder",
+      tooltip: "新しいフォルダー",
       icon: FbIconName.folderCreate,
       group: "Add",
     },
@@ -25,9 +25,9 @@ export const ExtraActions = {
   UploadFiles: defineFileAction({
     id: "upload_files",
     button: {
-      name: "Upload files",
+      name: "ファイルをアップロード",
       toolbar: true,
-      tooltip: "Upload files",
+      tooltip: "ファイルをアップロード",
       icon: FbIconName.upload,
       group: "Add",
     },
@@ -40,7 +40,7 @@ export const ExtraActions = {
     requiresSelection: true,
     fileFilter: (file) => !file?.isDir,
     button: {
-      name: "Download",
+      name: "ダウンロード",
       toolbar: true,
       contextMenu: true,
       icon: FbIconName.download,
@@ -63,7 +63,7 @@ export const ExtraActions = {
     requiresSelection: true,
     hotkeys: ["delete"],
     button: {
-      name: "Delete",
+      name: "削除",
       toolbar: true,
       contextMenu: true,
       iconOnly: true,
@@ -86,7 +86,7 @@ export const ExtraActions = {
       id: "paste_files",
       hotkeys: ["ctrl+v"],
       button: {
-        name: "Paste",
+        name: "貼り付け",
         contextMenu: true,
         icon: FbIconName.paste,
         toolbar: true,
@@ -120,7 +120,7 @@ export const ExtraActions = {
       requiresSelection: true,
       hotkeys: ["ctrl+x"],
       button: {
-        name: "Cut",
+        name: "切り取り",
         contextMenu: true,
         icon: FbIconName.cut,
         toolbar: true,
@@ -152,7 +152,7 @@ export const ExtraActions = {
     requiresSelection: true,
     hotkeys: ["f2"],
     button: {
-      name: "Rename",
+      name: "名前の変更",
       contextMenu: true,
       toolbar: true,
       iconOnly: true,

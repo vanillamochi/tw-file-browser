@@ -39,7 +39,7 @@ export const FileBrowser = React.forwardRef<
 	);
 
 	return (
-		<IntlProvider locale="en" defaultLocale="en" {...i18n}>
+		<IntlProvider locale="ja" defaultLocale="ja" {...i18n}>
 			<FbFormattersContext.Provider value={formatters}>
 				<ReduxProvider store={store}>{fBComps}</ReduxProvider>
 			</FbFormattersContext.Provider>

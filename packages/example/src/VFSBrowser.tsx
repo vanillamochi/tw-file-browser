@@ -30,7 +30,7 @@ const fileActionGroups = {
 	OpenOptions: {
 		sortOrder: -1,
 		icon: "majesticons:open-line",
-		tooltip: "Create New Item",
+		tooltip: "作成",
 	},
 };
 
